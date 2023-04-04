@@ -90,4 +90,5 @@ function dateManage(dateArg) {
     let day = days[dateArg.getDay()];
 
     return `${date} ${month} (${day}), ${year}`;
-}
+}   
+// changes done
