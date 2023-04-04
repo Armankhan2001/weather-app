@@ -1,0 +1,70 @@
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content:center ;
+        margin-top: 100px;
+    }
+    .weather-app{
+        font-size: larger;
+        font-weight: 400;
+        color: blue;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-shadow: inset -14px -11px 8px -10px rgba(0,0,0,0.46);
+        background: yellowgreen;
+    }
+    .weather-main{
+        box-shadow: 0px 1px 5px 4px rgba(0,0,0,0.75);
+        background-color: #288ba8;
+        width: 50vh;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .searchInputBox{
+        font-size: large;
+        padding: 20px;
+        border-radius: 10px;
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+    #input-box{
+        font-size: large;
+        padding: 20px;
+        border-radius: 10px solid black;
+        text-align: center;
+        background-color: rgba(255,255,255);
+        /* align-items: center; */
+    }
+    .location{
+        font-size: large;
+        /* display: none; */
+    }
+    .location-body{
+        display: none;
+    }
+    .temperature{
+        margin: 3px;
+        padding: 5px;
+        background-color: aliceblue;
+        /* border-radius: 10px; */
+        margin: 1px 60px;
+    }
+    .temp{
+        font-size: 60px;
+        font-weight: 400;
+        padding: 5px;
+    }
+    .min-max{
+        margin: 2px;
+        /* background-color: aliceblue; */
+
+    }
